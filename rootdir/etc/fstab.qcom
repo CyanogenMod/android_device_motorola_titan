@@ -16,4 +16,4 @@
 /devices/platform/msm_hsusb_host/usb1               auto         auto    defaults                                                                       voldmanaged=usbdisk:auto
 
 # ZRam
-/dev/block/zram0                                    none         swap    defaults                                                                       zramsize=134217728
+/dev/block/zram0                                    none         swap    defaults                                                                       zramsize=268435456

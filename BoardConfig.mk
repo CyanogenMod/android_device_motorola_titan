@@ -25,7 +25,6 @@ TARGET_LIBINIT_DEFINES_FILE := device/motorola/titan/init/init_titan.c
 
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
-TARGET_KERNEL_SOURCE := kernel/motorola/titan
 TARGET_KERNEL_CONFIG := titan_defconfig
 
 # Partitions

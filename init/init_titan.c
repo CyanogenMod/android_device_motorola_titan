@@ -60,7 +60,15 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     property_set("ro.product.model", "Moto G 2014");
 
     if (ISMATCH(radio, "0x1")) {
-
+        /* XT1063 */
+        property_set("ro.product.device", "titan_umts");
+        property_set("ro.product.name", "titan_retuglb");
+        property_set("ro.build.description", "titan_retuglb-user 5.0.1 LXB22.46-25 24 release-keys");
+        property_set("ro.build.fingerprint", "motorola/titan_retuglb/titan_umts:5.0.1/LXB22.46-25/24:user/release-keys");
+        property_set("ro.build.product", "titan_umts");
+        property_set("ro.mot.build.customerid", "retusa_glb");
+        property_set("ro.telephony.default_network", "3");
+        property_set("persist.radio.multisim.config", "");
     } else if (ISMATCH(radio, "0x3")) {
 
     } else if (ISMATCH(radio, "0x5")) {

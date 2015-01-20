@@ -69,8 +69,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.mot.build.customerid", "retusa_glb");
         property_set("ro.telephony.default_network", "3");
         property_set("persist.radio.multisim.config", "");
-    } else if (ISMATCH(radio, "0x3")) {
-
     } else if (ISMATCH(radio, "0x5")) {
         /*XT1068 */
         property_set("ro.product.device", "titan_umtsds");
@@ -83,8 +81,16 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("persist.radio.multisim.config", "dsds");
         property_set("persist.radio.dont_use_dsd", "true");
         property_set("persist.radio.plmn_name_cmp", "1");
-     } else if (ISMATCH(radio, "0x7")) {
-
+    } else if (ISMATCH(radio, "0x6")) {
+        /* XT1064 */
+        property_set("ro.product.device", "titan_umts");
+        property_set("ro.product.name", "titan_retuaws");
+        property_set("ro.build.description", "titan_retuaws-user 5.0.1 LXB22.46-25 24 release-keys");
+        property_set("ro.build.fingerprint", "motorola/titan_retuaws/titan_umts:5.0.1/LXB22.46-25/24:user/release-keys");
+        property_set("ro.build.product", "titan_umts");
+        property_set("ro.mot.build.customerid", "retusa_aws");
+        property_set("ro.telephony.default_network", "3");
+        property_set("persist.radio.multisim.config", "");
     }
     property_get("ro.product.device", device);
     strlcpy(devicename, device, sizeof(devicename));

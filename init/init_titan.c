@@ -91,6 +91,18 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.mot.build.customerid", "retusa_aws");
         property_set("ro.telephony.default_network", "3");
         property_set("persist.radio.multisim.config", "");
+    } else if (ISMATCH(radio, "0x7")) {
+        /* XT1069 */
+        property_set("ro.product.device", "titan_udstv");
+        property_set("ro.product.name", "titan_retbr_dstv");
+        property_set("ro.build.description", "titan_retbr_dstv-user 5.0 LXB22.46-16 16 release-keys");
+        property_set("ro.build.fingerprint", "motorola/titan_retbr_dstv/titan_udstv:5.0/LXB22.46-16/16:user/release-keys");
+        property_set("ro.build.product", "titan_udstv");
+        property_set("ro.mot.build.customerid", "retbr");
+        property_set("ro.telephony.default_network", "3");
+        property_set("persist.radio.multisim.config", "dsds");
+        property_set("persist.radio.dont_use_dsd", "true");
+        property_set("persist.radio.plmn_name_cmp", "1");
     }
     property_get("ro.product.device", device);
     strlcpy(devicename, device, sizeof(devicename));

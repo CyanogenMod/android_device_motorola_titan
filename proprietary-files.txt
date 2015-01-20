@@ -1,6 +1,7 @@
 # Proprietary files for titan
 
 # Sensors
+bin/sensord
 lib/hw/sensors.MSM8226.so
 
 # Touchscreen

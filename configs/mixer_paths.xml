@@ -79,6 +79,7 @@
 	<ctl name="SLIMBUS_0_RX Port Mixer INTERNAL_FM_TX" value="0" />
 	<ctl name="SLIMBUS_DL_HL Switch" value="0" />
 	<ctl name="MultiMedia1 Mixer INTERNAL_FM_TX" value="0" />
+	<ctl name="MultiMedia2 Mixer INTERNAL_FM_TX" value="0" />
 	<ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia1" value="0" />
 	<ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia5" value="0" />
 	<!-- fm end -->
@@ -315,6 +316,16 @@
 		<ctl name="LINEOUT2 Volume" value="14" />
 	</path>
 
+	<path name="speaker-bottom">
+		<ctl name="SLIM_0_RX Channels" value="One" />
+		<ctl name="SLIM RX1 MUX" value="AIF1_PB" />
+		<ctl name="RX3 MIX1 INP1" value="RX1" />
+		<ctl name="RDAC4 MUX" value="DEM2" />
+		<ctl name="RDAC5 MUX" value="DEM4" />
+		<ctl name="LINEOUT1 Volume" value="14" />
+		<ctl name="LINEOUT2 Volume" value="14" />
+	</path>
+
 	<path name="speaker-lite">
 		<path name="speaker" />
 	</path>
@@ -332,7 +343,7 @@
 		<ctl name="RX1 MIX1 INP1" value="RX1" />
 		<ctl name="CLASS_H_DSM MUX" value="RX_HPHL" />
 		<ctl name="RDAC3 MUX" value="DEM2" />
-		<ctl name="EAR PA Gain" value="POS_0_DB" />
+		<ctl name="EAR PA Gain" value="POS_0_6B" />
 		<ctl name="DAC1 Switch" value="1" />
 	</path>
 
@@ -384,7 +395,7 @@
 	<path name="headset-mic">
 		<path name="adc2" />
 		<ctl name="ADC1 Volume" value="0" />
-		<ctl name="ADC2 Volume" value="10" />
+		<ctl name="ADC2 Volume" value="19" />
 		<ctl name="ADC3 Volume" value="0" />
 	</path>
 
@@ -401,7 +412,13 @@
 	</path>
 
 	<path name="voice-speaker">
-		<path name="speaker" />
+		<ctl name="SLIM_0_RX Channels" value="One" />
+		<ctl name="SLIM RX1 MUX" value="AIF1_PB" />
+		<ctl name="RX3 MIX1 INP1" value="RX1" />
+		<ctl name="RDAC4 MUX" value="DEM2" />
+		<ctl name="RDAC5 MUX" value="DEM4" />
+		<ctl name="LINEOUT1 Volume" value="14" />
+		<ctl name="LINEOUT2 Volume" value="14" />
 	</path>
 
 	<path name="voice-speaker-mic">

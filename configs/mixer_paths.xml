@@ -336,7 +336,7 @@
 		<ctl name="RDAC5 MUX" value="DEM4" />
 		<ctl name="LINEOUT1 Volume" value="14" />
 		<ctl name="LINEOUT2 Volume" value="14" />
-</path>
+	</path>
 
 	<path name="speaker-mic">
 		<path name="adc1" />
@@ -351,7 +351,7 @@
 		<ctl name="RX1 MIX1 INP1" value="RX1" />
 		<ctl name="CLASS_H_DSM MUX" value="RX_HPHL" />
 		<ctl name="RDAC3 MUX" value="DEM2" />
-		<ctl name="EAR PA Gain" value="POS_6_DB" />
+		<ctl name="EAR PA Gain" value="POS_0_DB" />
 		<ctl name="DAC1 Switch" value="1" />
 	</path>
 

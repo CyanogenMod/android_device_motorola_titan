@@ -1,4 +1,0 @@
-Universal device configuration for the Moto G 2014 (titan)
-===============================
-
-Copyright 2014 - The CyanogenMod Project

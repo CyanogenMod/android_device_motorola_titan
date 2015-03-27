@@ -73,8 +73,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         /*XT1068 */
         property_set("ro.product.device", "titan_umtsds");
         property_set("ro.product.name", "titan_retaildsds");
-        property_set("ro.build.description", "titan_retaildsds-user 4.4.4 KXB21.85-23 19 release-keys");
-        property_set("ro.build.fingerprint", "motorola/titan_retaildsds/titan_umtsds:4.4.4/KXB21.85-23/19:user/release-keys");
+        property_set("ro.build.description", "titan_retaildsds-user 5.0.2 LXB22.46-28 28 release-keys");
+        property_set("ro.build.fingerprint", "motorola/titan_retaildsds/titan_umtsds:5.0.2/LXB22.46-28/28:user/release-keys");
         property_set("ro.build.product", "titan_umtsds");
         property_set("ro.mot.build.customerid", "retaildsdsall");
         property_set("ro.telephony.default_network", "0,1");

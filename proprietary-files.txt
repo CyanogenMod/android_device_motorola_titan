@@ -42,6 +42,9 @@ vendor/lib/libmmcamera_imx179.so
 vendor/lib/libmmcamera_ov10820.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 
+# Charger
+bin/charge_only_mode
+
 # Chromatix
 lib/libchromatix_ar0543_common.so
 lib/libchromatix_ar0543_default_video.so

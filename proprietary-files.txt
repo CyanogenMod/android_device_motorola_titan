@@ -40,6 +40,7 @@ vendor/lib/libmmcamera_imx132.so
 vendor/lib/libmmcamera_imx135.so
 vendor/lib/libmmcamera_imx179.so
 vendor/lib/libmmcamera_ov10820.so
+vendor/lib/libmmcamera_t4k71.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 
 # Chromatix
@@ -68,6 +69,12 @@ vendor/lib/libchromatix_ov10820_common.so
 vendor/lib/libchromatix_ov10820_preview.so
 vendor/lib/libchromatix_ov10820_snapshot.so
 vendor/lib/libchromatix_ov10820_zsl.so
+vendor/lib/libchromatix_t4k71_common.so
+vendor/lib/libchromatix_t4k71_fhd_30fps.so
+vendor/lib/libchromatix_t4k71_fhd_30fps_video.so
+vendor/lib/libchromatix_t4k71_fhd_60fps.so
+vendor/lib/libchromatix_t4k71_hd_30fps.so
+vendor/lib/libchromatix_t4k71_hd_60fps.so
 
 # Sensors
 bin/sensord

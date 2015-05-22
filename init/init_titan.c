@@ -63,8 +63,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         /* XT1063 */
         property_set("ro.product.device", "titan_umts");
         property_set("ro.product.name", "titan_retuglb");
-        property_set("ro.build.description", "titan_retuglb-user 5.0.2 LXB22.46-28 28 release-keys");
-        property_set("ro.build.fingerprint", "motorola/titan_retuglb/titan_umts:5.0.2/LXB22.46-28/28:user/release-keys");
+        property_set("ro.build.description", "titan_retuglb-user 5.0.2 LXB22.99-24.2 4 release-keys");
+        property_set("ro.build.fingerprint", "motorola/titan_retuglb/titan_umts:5.0.2/LXB22.99-24.2/4:user/release-keys");
         property_set("ro.build.product", "titan_umts");
         property_set("ro.mot.build.customerid", "retusa_glb");
         property_set("ro.telephony.default_network", "0");
@@ -73,8 +73,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         /*XT1068 */
         property_set("ro.product.device", "titan_umtsds");
         property_set("ro.product.name", "titan_retaildsds");
-        property_set("ro.build.description", "titan_retaildsds-user 5.0.2 LXB22.46-28 28 release-keys");
-        property_set("ro.build.fingerprint", "motorola/titan_retaildsds/titan_umtsds:5.0.2/LXB22.46-28/28:user/release-keys");
+        property_set("ro.build.description", "titan_retaildsds-user 5.0.2 LXB22.99-24.2 4 release-keys");
+        property_set("ro.build.fingerprint", "motorola/titan_retaildsds/titan_umtsds:5.0.2/LXB22.99-24.2/4:user/release-keys");
         property_set("ro.build.product", "titan_umtsds");
         property_set("ro.mot.build.customerid", "retaildsdsall");
         property_set("ro.telephony.default_network", "0,1");
@@ -85,8 +85,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         /* XT1064 */
         property_set("ro.product.device", "titan_umts");
         property_set("ro.product.name", "titan_retuaws");
-        property_set("ro.build.description", "titan_retuaws-user 5.0.2 LXB22.46-28 28 release-keys");
-        property_set("ro.build.fingerprint", "motorola/titan_retuaws/titan_umts:5.0.2/LXB22.46-28/28:user/release-keys");
+        property_set("ro.build.description", "titan_retuaws-user 5.0.2 LXB22.99-24.2 4 release-keys");
+        property_set("ro.build.fingerprint", "motorola/titan_retuaws/titan_umts:5.0.2/LXB22.99-24.2/4:user/release-keys");
         property_set("ro.build.product", "titan_umts");
         property_set("ro.mot.build.customerid", "retusa_aws");
         property_set("ro.telephony.default_network", "0");
@@ -95,8 +95,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         /* XT1069 */
         property_set("ro.product.device", "titan_udstv");
         property_set("ro.product.name", "titan_retbr_dstv");
-        property_set("ro.build.description", "titan_retbr_dstv-user 5.0.2 LXB22.46-28 28 release-keys");
-        property_set("ro.build.fingerprint", "motorola/titan_retbr_dstv/titan_udstv:5.0.2/LXB22.46-28/28:user/release-keys");
+        property_set("ro.build.description", "titan_retbr_dstv-user 5.0.2 LXB22.99-24.2 4 release-keys");
+        property_set("ro.build.fingerprint", "motorola/titan_retbr_dstv/titan_udstv:5.0.2/LXB22.99-24.2/4:user/release-keys");
         property_set("ro.build.product", "titan_udstv");
         property_set("ro.mot.build.customerid", "retbr");
         property_set("ro.telephony.default_network", "0,1");

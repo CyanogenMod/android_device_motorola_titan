@@ -302,8 +302,8 @@
 		<ctl name="SLIM_0_RX Channels" value="Two" />
 		<ctl name="SLIM RX1 MUX" value="AIF1_PB" />
 		<ctl name="SLIM RX2 MUX" value="AIF1_PB" />
-		<ctl name="RX2 MIX1 INP1" value="RX2" />
-		<ctl name="RX3 MIX1 INP1" value="RX1" />
+		<ctl name="RX2 MIX1 INP1" value="RX1" />
+		<ctl name="RX3 MIX1 INP1" value="RX2" />
 		<ctl name="RDAC3 MUX" value="DEM1" />
 		<ctl name="RDAC4 MUX" value="DEM2" />
 		<ctl name="RDAC5 MUX" value="DEM4" />
@@ -319,8 +319,8 @@
 		<ctl name="SLIM_0_RX Channels" value="Two" />
 		<ctl name="SLIM RX1 MUX" value="AIF1_PB" />
 		<ctl name="SLIM RX2 MUX" value="AIF1_PB" />
-		<ctl name="RX2 MIX1 INP1" value="RX1" />
-		<ctl name="RX3 MIX1 INP1" value="RX2" />
+		<ctl name="RX2 MIX1 INP1" value="RX2" />
+		<ctl name="RX3 MIX1 INP1" value="RX1" />
 		<ctl name="RDAC3 MUX" value="DEM1" />
 		<ctl name="RDAC4 MUX" value="DEM2" />
 		<ctl name="RDAC5 MUX" value="DEM4" />

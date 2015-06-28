@@ -2,3 +2,6 @@
 
 # radio
 rild.libargs=-d /dev/smd0
+
+# audio
+ro.audio.monitorRotation=1

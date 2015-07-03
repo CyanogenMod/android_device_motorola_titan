@@ -85,7 +85,7 @@
 	<!-- fm end -->
 
 	<!-- Voip -->
-	<ctl name="SEC_MI2S_RX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_0_RX_Voice Mixer Voip" value="0" />
 	<ctl name="Voip_Tx Mixer PRI_MI2S_TX_Voip" value="0" />
 	<ctl name="Internal BTSCO SampleRate" value="8000" />
 	<ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="0" />
@@ -259,8 +259,8 @@
 	</path>
 
 	<path name="compress-voip-call">
-		<ctl name="SEC_MI2S_RX_Voice Mixer Voip" value="1" />
-		<ctl name="Voip_Tx Mixer PRI_MI2S_TX_Voip" value="1" />
+		<ctl name="SLIM_0_RX_Voice Mixer Voip" value="1" />
+		<ctl name="Voip_Tx Mixer SLIM_0_TX_Voip" value="1" />
 	</path>
 
 	<path name="compress-voip-call bt-sco">

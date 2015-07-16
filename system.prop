@@ -13,3 +13,5 @@ ro.usb.bpt=0x2e28
 ro.usb.bpt_adb=0x2e29
 ro.usb.bpteth=0x2e2a
 ro.usb.bpteth_adb=0x2e2b
+persist.radio.multisim.config=dsds
+persist.multisim.config=dsds

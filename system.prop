@@ -1,0 +1,4 @@
+# system.prop for titan
+
+# audio
+ro.audio.monitorRotation=1

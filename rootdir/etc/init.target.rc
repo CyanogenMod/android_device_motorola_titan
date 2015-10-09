@@ -26,17 +26,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-on init
-    # External storage directories
-    mkdir /mnt/media_rw/sdcard1 0700 media_rw media_rw
-    mkdir /storage/sdcard1 0700 root root
-
-    export SECONDARY_STORAGE /storage/sdcard1
-
-    # Support legacy paths
-    symlink /storage/sdcard1 /mnt/sdcard1
-    symlink /storage/sdcard1 /external_sd
-
 on post-fs-data
     # Create directory for titan sensors
     mkdir /data/misc/sensor 0775
@@ -48,10 +37,6 @@ on boot
     chown root input /sys/class/srot_sensor/g_sensor/en_disp_rotation
 
 # Services start here
-
-service fuse_sdcard1 /system/bin/sdcard -u 1023 -g 1023 -d /mnt/media_rw/sdcard1 /storage/sdcard1
-    class late_start
-    disabled
 
 service sensord /system/bin/sensord
     user input

@@ -30,7 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := titan,titan_umts,titan_udstv,titan_umtsds,titan_reta
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Kernel
-BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
+BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_CONFIG := titan_defconfig
 
 # Partitions

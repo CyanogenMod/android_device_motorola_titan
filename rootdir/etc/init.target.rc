@@ -28,8 +28,7 @@
 
 on post-fs-data
     # Create directory for titan sensors
-    mkdir /data/misc/sensor 0775
-    exec /system/bin/chown -R input:input /data/misc/sensor
+    mkdir /data/misc/sensor 0775 input input
 
 on boot
     # titan/thea  sensors

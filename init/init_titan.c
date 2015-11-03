@@ -62,7 +62,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     if (ISMATCH(radio, "0x1")) {
         /* XT1063 */
         property_set("ro.product.device", "titan_umts");
-        property_set("ro.product.name", "titan_retuglb");
         property_set("ro.build.description", "titan_retuglb-user 5.0.2 LXB22.99-24.4 8 release-keys");
         property_set("ro.build.fingerprint", "motorola/titan_retuglb/titan_umts:5.0.2/LXB22.99-24.4/8:user/release-keys");
         property_set("ro.build.product", "titan_umts");
@@ -72,7 +71,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     } else if (ISMATCH(radio, "0x5")) {
         /*XT1068 */
         property_set("ro.product.device", "titan_umtsds");
-        property_set("ro.product.name", "titan_retaildsds");
         property_set("ro.build.description", "titan_retaildsds-user 5.0.2 LXB22.99-24.4 8 release-keys");
         property_set("ro.build.fingerprint", "motorola/titan_retaildsds/titan_umtsds:5.0.2/LXB22.99-24.4/8:user/release-keys");
         property_set("ro.build.product", "titan_umtsds");
@@ -84,7 +82,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     } else if (ISMATCH(radio, "0x6")) {
         /* XT1064 */
         property_set("ro.product.device", "titan_umts");
-        property_set("ro.product.name", "titan_retuaws");
         property_set("ro.build.description", "titan_retuaws-user 5.0.2 LXB22.99-24.4 8 release-keys");
         property_set("ro.build.fingerprint", "motorola/titan_retuaws/titan_umts:5.0.2/LXB22.99-24.4/8:user/release-keys");
         property_set("ro.build.product", "titan_umts");
@@ -94,7 +91,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     } else if (ISMATCH(radio, "0x7")) {
         /* XT1069 */
         property_set("ro.product.device", "titan_udstv");
-        property_set("ro.product.name", "titan_retbr_dstv");
         property_set("ro.build.description", "titan_retbr_dstv-user 5.0.2 LXB22.99-24.4 8 release-keys");
         property_set("ro.build.fingerprint", "motorola/titan_retbr_dstv/titan_udstv:5.0.2/LXB22.99-24.4/8:user/release-keys");
         property_set("ro.build.product", "titan_udstv");

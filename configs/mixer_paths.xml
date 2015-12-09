@@ -371,7 +371,7 @@
 		<ctl name="LINEOUT2 Volume" value="14" />
 	</path>
 
-	<path name="speaker-bottom">
+	<path name="speaker-safe">
 		<ctl name="SLIM_0_RX Channels" value="One" />
 		<ctl name="SLIM RX1 MUX" value="AIF1_PB" />
 		<ctl name="RX3 MIX1 INP1" value="RX1" />
@@ -379,7 +379,7 @@
 		<ctl name="RDAC5 MUX" value="DEM4" />
 		<ctl name="LINEOUT1 Volume" value="14" />
 		<ctl name="LINEOUT2 Volume" value="14" />
-</path>
+	</path>
 
 	<path name="speaker-mic">
 		<path name="adc1" />
@@ -508,6 +508,8 @@
 		<ctl name="RX3 MIX1 INP1" value="RX1" />
 		<ctl name="RX3 MIX1 INP2" value="RX2" />
 		<ctl name="SPK DAC Switch" value="1" />
+		<ctl name="LINEOUT1 Volume" value="14" />
+		<ctl name="LINEOUT2 Volume" value="14" />
 	</path>
 
 	<path name="speaker-safe-and-headphones">
@@ -525,8 +527,8 @@
 		<ctl name="RX3 MIX1 INP1" value="RX1" />
 		<ctl name="RDAC4 MUX" value="DEM2" />
 		<ctl name="RDAC5 MUX" value="DEM4" />
-		<ctl name="LINEOUT1 Volume" value="14" />
-		<ctl name="LINEOUT2 Volume" value="14" />
+		<ctl name="LINEOUT1 Volume" value="9" />
+		<ctl name="LINEOUT2 Volume" value="9" />
 	</path>
 
 	<path name="speaker-and-headphones-lite">

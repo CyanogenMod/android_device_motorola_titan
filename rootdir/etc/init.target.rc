@@ -38,6 +38,5 @@ on boot
 # Services start here
 
 service sensord /system/bin/sensord
-    user input
-    group input
+    user root
     class main

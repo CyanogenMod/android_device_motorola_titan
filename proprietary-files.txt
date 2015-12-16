@@ -9,10 +9,6 @@ etc/Hdmi_cal.acdb
 etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
-# Sensors
-bin/sensord
-lib/hw/sensors.MSM8226.so
-
 # Touchscreen
 etc/firmware/BLU_synaptics-s2716-00000000-18a02a-titan.tdat
 etc/firmware/synaptics-s2716-14061501-18a02a-titan.tdat

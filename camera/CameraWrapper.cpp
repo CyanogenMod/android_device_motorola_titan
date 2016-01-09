@@ -111,6 +111,9 @@ static char *camera_fixup_getparams(int id, const char *settings)
     params.dump();
 #endif
 
+    params.set("hfr-size-values", "1280x720,1280x720,1280x720");
+    params.set("video-hfr-values", "60,90,120,off");
+
 #if !LOG_NDEBUG
     ALOGV("%s: fixed parameters:", __FUNCTION__);
     params.dump();

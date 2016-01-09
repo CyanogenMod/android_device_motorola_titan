@@ -26,7 +26,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8226
+    camera.msm8226 \
+    Snap
 
 # Ramdisk
 PRODUCT_PACKAGES += \

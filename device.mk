@@ -26,7 +26,11 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    init.target.rc
+
+# Sensors
+PRODUCT_PACKAGES += \
+    sensord
 
 # Wifi
 PRODUCT_COPY_FILES += \

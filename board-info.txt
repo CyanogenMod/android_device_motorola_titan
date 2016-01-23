@@ -1,1 +1,1 @@
-require version-bootloader=0x4882|0x4883
+require version-bootloader=0x4882|0x4883|0x4886

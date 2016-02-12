@@ -32,5 +32,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     sensord
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-titan.conf:system/etc/thermal-engine-titan.conf
+
 # Inherit from msm8226-common
 $(call inherit-product, device/motorola/msm8226-common/msm8226.mk)

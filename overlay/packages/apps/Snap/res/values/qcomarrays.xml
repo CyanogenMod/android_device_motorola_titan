@@ -36,4 +36,7 @@
         <item>hfr120</item>
     </string-array>
 
+    <!-- Zero shutter lag-->
+    <string name="pref_camera_zsl_default" translatable="false">off</string>
+
 </resources>

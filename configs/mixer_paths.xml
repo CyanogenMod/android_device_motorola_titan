@@ -394,13 +394,11 @@
 	</path>
 
 	<path name="handset">
-		<ctl name="SLIM RX1 MUX" value="AIF1_PB" />
+		<ctl name="SLIM RX2 MUX" value="AIF1_PB" />
 		<ctl name="SLIM_0_RX Channels" value="One" />
-		<ctl name="RX1 MIX1 INP1" value="RX1" />
-		<ctl name="CLASS_H_DSM MUX" value="RX_HPHL" />
-		<ctl name="RDAC3 MUX" value="DEM2" />
-		<ctl name="EAR PA Gain" value="POS_6_DB" />
-		<ctl name="DAC1 Switch" value="1" />
+		<ctl name="RX2 MIX1 INP1" value="RX2" />
+		<ctl name="RDAC4 MUX" value="DEM2" />
+		<ctl name="LINEOUT1 Volume" value="11" />
 	</path>
 
 	<path name="handset-mic">

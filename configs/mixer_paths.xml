@@ -398,7 +398,7 @@
 		<ctl name="SLIM_0_RX Channels" value="One" />
 		<ctl name="RX2 MIX1 INP1" value="RX2" />
 		<ctl name="RDAC4 MUX" value="DEM2" />
-		<ctl name="LINEOUT1 Volume" value="11" />
+		<ctl name="LINEOUT1 Volume" value="9" />
 	</path>
 
 	<path name="handset-mic">

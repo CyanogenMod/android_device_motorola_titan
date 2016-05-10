@@ -19,9 +19,9 @@
 DEVICE_PATH := device/motorola/titan
 
 # Vendor Unification Init
+TARGET_INIT_VENDOR_LIB := libinit_titan
+TARGET_RECOVERY_DEVICE_MODULES := libinit_titan
 TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_titan.cpp
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := titan,titan_umts,titan_udstv,titan_umtsds,titan_retaildsds,XT1068,XT1064,XT1063,XT1069

@@ -40,3 +40,6 @@ on boot
 service sensord /system/bin/sensord
     user root
     class main
+
+on property:init.svc.zygote=restarting
+    restart sensord

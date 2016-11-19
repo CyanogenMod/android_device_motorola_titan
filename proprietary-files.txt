@@ -30,3 +30,10 @@ vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/libmmcamera2_wnr_module.so
 vendor/lib/liboemcamera.so
+
+# DTV
+bin/jellyservice
+etc/permissions/com.nmi.software.mtv.moto.xml
+framework/NMIMobileTV.jar
+lib/libJellyPGForM.so
+lib/libJellyService.so
